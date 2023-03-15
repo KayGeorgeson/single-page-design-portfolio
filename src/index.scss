@@ -1,0 +1,1522 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&family=Raleway:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+/*  font are medium 500 bold 700 */
+
+
+$main-font: 'Plus Jakarta Sans', sans-serif;
+$background-color: #fff7f0;
+
+
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$button-background-color: #030303;
+$button-word-color: #fff7f0;
+
+$title-color: #030303;
+
+$smaller-main-text-header: #7a746e;
+
+$my-work-title: #030303;
+
+$arrow-color: #030303;
+
+$about-me-section-title: #030303;
+$about-me-section-button-color: #eb7565;
+$about-me-section-smaller-words: #7a746e;
+
+
+$graphic-box-color: #755cde;
+$ux-ui-box-color: #f6a560;
+$apps-box-color: #f39e9e;
+$illu-box-color: #eb7565;
+$photo-box-color: #61c4b7;
+$motion-box-color: #552049;
+$grid-elements-font-color: #ffffff;
+
+$book-call-box-color: #030303;
+$book-call-box-button-color: #eb7565;
+
+
+
+/* hover state variables */
+
+$nav-and-footer-button-hover: #755cde;
+$arrow-button-hover: #755cde;
+$about-me-and-book-call-hover: #eb7565;
+
+
+
+
+
+
+
+html {
+  font-size: 62.5%;    
+}
+
+
+
+body {
+  margin: 0;
+  background-color: $background-color;
+  font-family: $main-font;
+          
+  
+}
+
+
+
+.site-layout {
+  background-color: $background-color;
+  margin: auto;
+  
+}
+
+
+main {
+  background-color: $background-color;
+ 
+}
+
+
+
+/*  Nav with icons  */
+
+
+nav {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  width: 111.1rem;                                    
+  height: 6.4rem;                                           
+  margin-top: 3.4rem;                                        
+  
+
+}
+
+
+.social-logo {
+ 
+  width: 6.4rem;                 
+  height: 6.4rem;
+
+}
+
+
+.free-consult-button {
+  display: flex;
+  width:  22.8rem;             
+  height: 5.6rem;                  
+  align-self: center;
+  background-color: $button-background-color;
+  font-weight: $font-weight-bold;
+  color: $button-word-color;
+  border-radius: 2.8rem;                       
+  border: 0;
+  
+}
+
+.free-consult-words {
+ font-size: 1.6rem;                                                 
+ line-height: 2.8rem;                       
+ margin: auto;
+ 
+}
+
+
+/* Div with main title */
+
+
+.main-centered-title {
+  display: flex;
+  justify-content: center;
+
+  
+  
+}
+
+
+.title-box {
+  margin-top: 6.6rem;                                                 
+  width: 75.2rem;                                 
+  height: 15rem;                                   
+  background-color: $background-color;
+
+ }
+
+
+ p.main-title {
+  font-size: 5.6rem;                                            
+  color: $title-color;
+  font-weight: $font-weight-bold;
+  line-height: 7.056rem;                                            
+  margin-top: 0;
+  margin-bottom: 23px;
+  
+}
+
+p.smaller-title-text {
+  font-size: 1.8rem;                                    
+  line-height: 2.8rem;                                              
+  margin-top: 0;
+  font-weight: $font-weight-medium;
+  padding-left: 1.46%;
+  padding-right: 1.46%;
+  color: $smaller-main-text-header;
+  text-align: center;
+
+}
+
+
+
+ /* main 'hero' section with grid graphics  */
+
+
+
+
+.main-centered-hero {
+  display: flex;
+  justify-content: center;
+  
+ 
+  
+  
+}
+
+
+
+.hero-image-box {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-auto-rows: 1fr 1fr 1fr;                        
+   margin-top: 8rem;                                                 
+   width: 113rem;                                                    
+   height: 36.4rem;                                                      
+  
+ 
+}
+
+.graphic-design-box {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  margin-right: 2.409rem;                                              
+  width: 35.4rem;                                               
+  height: 36.4rem;                                                         
+  background-color: $graphic-box-color;
+  border-radius: 0.8rem;                                          
+}
+
+
+
+
+
+.graph-design-box-logo {
+   width: 12.8rem;                                            
+   height: 19.2rem;                                                        
+   margin-top: 2.4rem;                                                    
+   margin-left: 20.2rem;                                                              
+   margin-right: 2.4rem;                                                   
+  
+}
+
+
+.graphic-design-inner-box-text {
+   margin-top: 9.4rem;                                
+   margin-left: 2.4rem;                                             
+   margin-right: 12rem;                                                         
+   line-height: 3.024rem;                                                     
+   font-weight: $font-weight-bold;
+   font-size: 2.4rem;                                       
+   color: $grid-elements-font-color;
+   display: flex;
+   align-items: flex-start;
+  
+}
+
+.ux-ui-box {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-bottom: 2.4rem;                                          
+  margin-right: 2.504rem;                                                  
+  width: 16.4rem;                                                
+  height: 18.2rem;                                             
+  background-color: $ux-ui-box-color;
+  border-radius: 0.8rem;                                                 
+}
+
+
+.ux-ui-box-logo {
+  width: 6.4rem;                                                         
+  height: 6.4rem;
+  margin-left: 7.591rem;                             
+  margin-right: 2.409rem;                                        
+  margin-top:  2.4rem;                 
+
+}
+
+
+.ux-inner-box-text {
+  display: flex;
+  color: $grid-elements-font-color;
+  font-size: 2.4rem;                    
+  line-height: 3.024rem;                   
+  font-weight: $font-weight-bold;
+  margin-top: 4rem;                  
+  margin-left: 2.377rem;                            
+  margin-right: 5.835rem;                              
+  align-items: flex-start;
+}
+
+.apps-box {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  margin-bottom: 2.4rem;                                         
+  margin-right: 2.487rem;                     
+  width: 16.4rem;                          
+  height: 18.2rem;                       
+  background-color: $apps-box-color;
+  border-radius: 0.8rem;                          
+}
+
+
+.apps-box-logo {
+  width:  6.4rem;                              
+  height: 6.4rem;
+  margin-top: 2.4rem;                 
+  margin-left: 7.587rem;                  
+  margin-right: 2.423rem;                       
+}
+
+
+.apps-inner-box-text {
+  font-size: 2.4rem;                               
+  line-height: 3.024rem;                                        
+  margin-top:  4rem;                                       
+  margin-left: 2.377rem;                                          
+  font-weight: $font-weight-bold;
+  margin-right: 6.745rem;                    
+  color: $grid-elements-font-color;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.illu-box {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  margin-right: 2.487rem;                                
+  width: 35.4rem;                         
+  height: 15.8rem;                   
+  background-color: $illu-box-color;
+  border-radius: 0.8rem;                        
+}
+
+
+.illu-box-logo {
+  width: 12.8rem;                       
+  height:  6.4rem;                              
+  margin-top:  2.4rem;                         
+  margin-left:  20.091rem;                               
+  margin-right:  2.509rem;                                 
+
+}
+
+
+.illu-inner-box-text {
+  font-size:  2.4rem;                       
+  line-height:  3.024rem;                       
+  margin-top:   1.6rem;                   
+  margin-left:  2.435rem;                              
+  font-weight: $font-weight-bold;
+  margin-right:  16.79rem;                                
+  color: $grid-elements-font-color;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.photo-box {
+  grid-column: 4 / 6;
+  grid-row: 1 / 2 ;
+  width:  35.4rem;                             
+  height:  18.2rem;                                    
+  background-color: $photo-box-color;
+  border-radius:  0.8rem;                       
+}
+
+.photo-box-logo {
+  width:  16rem;                            
+  height:  6.4rem;                           
+  margin-top:  2.4rem;                             
+  margin-left: 17rem;                            
+  margin-right:  2.4rem;                      
+}
+
+
+.photo-inner-box-text {
+  font-size:  2.4rem;                                  
+  line-height:  3.024rem;                                   
+  margin-top:  4rem;                             
+  font-weight: $font-weight-bold;
+  margin-left:  2.386rem;                                  
+  margin-right:  14.808rem;                                            
+  color: $grid-elements-font-color;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.motion-box {
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+  width:  35.4rem;                                            
+  height:  15.8rem;                                       
+  background-color: $motion-box-color;
+  border-radius:  0.8rem;                                     
+
+}
+
+
+.motion-box-logo {
+  width:  12.8rem;                                      
+  height:  6.4rem;                                            
+  margin-top:  2.4rem;                                     
+  margin-left:  20.2rem;                                        
+  margin-right:   2.4rem;                             
+
+}
+
+
+.motion-inner-box-text {
+  font-size:  2.4rem;                                        
+  line-height:   3.024rem;                                   
+  color: $grid-elements-font-color;
+  margin-top:   1.6rem;                                         
+  font-weight: $font-weight-bold;
+  margin-left:  2.4rem;                             
+  margin-right:  10.3rem;                                      
+  display: flex;
+  align-items: flex-start;
+
+}
+
+
+
+
+/* About me "I'm Amy" section with profile picture  */
+
+
+.main-centered-about-me {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about-me-box-main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width:  111rem;                                         
+  height:  44.5rem;                                              
+  margin-bottom:  8.8rem;                                    
+  margin-top:  13.6rem;                                 
+}
+
+
+.profile-photo {
+  width:  44.5rem;                          
+  height:  44.5rem;                             
+}
+
+
+.about-text-box-contain {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width:  54rem;                                    
+  height:  30.6rem;                                  
+
+}
+
+
+.about-text-box-contain {
+  text-align: left;
+}
+
+
+
+
+.about-header {
+  margin-top: 0;
+  margin-bottom:  2.3rem;                       
+  font-size:  4rem;                            
+  font-weight: $font-weight-bold;
+  line-height:  5.04rem;                                   
+  color: $about-me-section-title;
+}
+
+
+
+
+.smaller-about-text {
+  margin-bottom: 3.2rem;                                     
+  font-size:  1.8rem;                                  
+  font-weight: $font-weight-medium;
+  line-height:  2.8rem;                                               
+  color: $about-me-section-smaller-words;
+}
+
+
+.about-text-box-contain button {
+  background-color: $about-me-section-button-color;
+  color: $button-word-color;
+  margin: 0;
+  width:  22.8rem;                          
+  line-height:   2.8rem;                        
+  font-weight: $font-weight-bold;
+  height:  5.6rem;                    
+  font-size:  1.6rem;                           
+  border-radius:  2.8rem;                              
+  border: 0;
+}
+
+
+
+
+/*  "My work" and slides */ 
+
+
+.main-centered-carousel {
+   height:  60rem;                                             
+}
+
+
+.my-work-main-contain {
+  height:  4.2rem;                          
+}
+
+
+.slide-contain {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  scroll-behavior: smooth;
+ 
+ 
+}
+
+
+.my-work-words {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  font-weight: $font-weight-bold;
+  font-size:  3.2rem;                               
+  color: $my-work-title;
+}
+
+
+.slide-picture {
+  width:  54rem;                                
+  height:  36rem;                              
+  border-radius:  1rem;                       
+}
+
+
+.work-slides {
+  margin-top:   5.6rem;                          
+  margin-left:  3rem;                        
+  margin-right: 0;
+ 
+ 
+}
+
+
+.work-slides:first-child {
+  margin-left:  3rem;                         
+}
+
+
+.work-slides:last-child {
+  margin-left:  3rem;
+}
+
+
+
+
+
+
+
+/* Arrow buttons underneath slides */
+
+
+.arrow-buttons-contain {
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.arrow-buttons-contain button {
+  width:  6.4rem;                               
+  height: 6.4rem;
+  border-radius:   5rem;                                
+  background-color: $arrow-color;
+  margin-top:   5.6rem;                           
+  border: 0;
+
+}
+
+
+.arrow {
+  color: $button-word-color;
+  margin: auto;
+}
+
+
+.left-btn {
+  margin-right:   1.6rem;                        
+}
+
+
+
+
+/*   Book call section */
+
+
+
+.main-centered-book-call {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+.book-call-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top:  8.8rem;                              
+  width:  111rem;                                   
+  height:  32rem;                            
+  background-color: $book-call-box-color;
+  border-radius:  1rem;                             
+}
+
+
+
+.book-call-text-box {
+    width:  54rem;                               
+    margin-left: 6.5rem;                     
+    margin-top:  8.1rem;                         
+    
+}
+
+
+
+.book-text-header {
+   margin-top: 0;
+   margin-bottom:  2.5rem;                             
+   text-align: left;
+   color: $button-word-color;
+   font-size:  4rem;                                  
+   line-height:  5.04rem;                                 
+   
+}
+
+
+.book-copy-text {
+  margin-top: 0;
+  margin-bottom:  8rem;                                    
+  text-align: left;
+  color: $button-word-color;
+  font-size:  1.8rem;                                      
+  line-height:  2.8rem;                      
+  
+}
+
+
+
+
+.second-free-consult-box {
+  display: flex;
+  align-self: center;
+  margin-right:  9.5rem;                                
+  color: $background-color;
+  line-height:  2.8rem;                                 
+  
+}
+
+
+
+
+.second-consult-btn {
+  font-size:  1.6rem;                                    
+  width:  22.8rem;                                          
+  height:  5.6rem;                                    
+  border: 0;
+  border-radius:  2.8rem;                                 
+  font-weight: $font-weight-bold;
+  color: $button-word-color;
+  background-color: $book-call-box-button-color;
+  line-height:  2.8rem;                             
+}
+
+
+
+/*  footer section  */
+
+
+ .main-footer-contain {
+  display: flex;
+  justify-content: center;
+  
+
+ }
+
+
+ .footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top:  5.6rem;                          
+  margin-bottom:  6.4rem;                       
+  width:  111.1rem;                                 
+  
+
+ }
+
+
+ .social-logo-footer {
+  width:  6.4rem;                             
+  height: 6.4rem;
+
+ }
+
+
+
+ .footer-free-consult-button {
+   display: flex;
+   align-self: center;
+   background-color: #030303;
+   font-weight: $font-weight-bold;
+   width:  22.8rem;                          
+   height:  5.6rem;                              
+   border-radius:  2.8rem;                                       
+   border: 0;
+
+
+ }
+
+
+
+ .footer-free-consult-words {
+  margin: auto;
+  color: $background-color;
+  font-size: 1.6rem;                         
+  line-height:  2.8rem;                                  
+
+ }
+
+
+    /*  Button hover states  */
+ 
+
+
+
+  .free-consult-button:hover {
+    cursor: pointer;
+    background-color: $nav-and-footer-button-hover;
+  }
+
+
+  .red-button:hover {
+    cursor: pointer;
+    background-color: $about-me-and-book-call-hover;
+  }
+
+
+  .arrow-btn:hover {
+    cursor: pointer;
+    background-color: $arrow-button-hover;
+    border: 0;
+  }
+
+
+  .second-consult-btn:hover {
+    cursor: pointer;
+    background-color: $about-me-and-book-call-hover;
+  }
+
+
+  .footer-free-consult-button:hover {
+    cursor: pointer;
+    background-color: $nav-and-footer-button-hover;
+    border: 0;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+  /*    media queries  */
+
+
+  @media screen and (max-width: 83.4rem)  {             /* ipad pro 11   834px  */
+     
+     
+
+     .nav-content {
+       width:  68.9rem;                          
+       height:  6.4rem;                                   
+     }
+
+
+     .title-box {
+      width:  69rem;                                 
+      height: 13.8rem;                                  
+     }
+
+
+     p.main-title {
+      font-size:  4.4rem;                    
+      line-height:  5.544rem;  
+      margin-bottom: 2.7rem;                             
+     }
+
+
+     .hero-image-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-auto-rows: 1fr 1fr 1fr 1fr;
+      width:  69rem;                                          
+      height:  57rem;                                    
+      margin-top:  5.5rem;                                         
+
+     }
+
+
+     .graphic-design-box {
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
+      width:  33.3rem;                                 
+      height:  36.4rem;                                              
+
+     }
+
+
+
+     .graph-design-box-logo {
+       margin-left:  18.1rem;                                    
+       margin-top: 2.4rem;                                 
+
+     }
+
+
+     .graphic-design-inner-box-text {
+      margin-right:  9.9rem;                               
+      
+      
+     }
+
+
+
+     .ux-ui-box {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      width:  15.5rem;                                      
+      height:  18.2rem;                                 
+
+     }
+
+
+     .ux-ui-box-logo {
+      margin-left:  6.991rem;                                     
+      margin-right:  2.109rem;                                         
+
+     }
+
+
+     .ux-inner-box-text {
+      margin-right:  4.935rem;                                      
+      
+
+
+     }
+
+
+     .apps-box {
+      grid-column: 3 / 4;
+      grid-row: 1 / 2;
+      width:   15.5rem;                                                      
+      height:  18.2rem;                                          
+     }
+
+
+     .apps-box-logo {
+      margin-left:  6.987rem;                                       
+      margin-right:  2.113rem;                                     
+
+     }
+     
+
+
+     .apps-inner-box-text {
+       margin-right:  5.845rem;                           
+      
+     }
+
+
+
+
+     .illu-box {
+      grid-column: 2 / 4;
+      grid-row: 2 / 3;
+      width:   33.3rem;                                          
+      height:  15.8rem;                               
+    
+
+
+     }
+
+
+
+
+     .illu-box-logo {
+      margin-left:   18.691rem;                                
+      margin-right:  1.809rem;                                     
+
+
+     }
+
+
+
+
+    .illu-inner-box-text {
+      margin-right:  14.69rem;                                     
+     
+
+    }
+
+
+
+    .photo-box {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5 ;
+      width:  33.3rem;                                                       
+      height:  18.2rem;                               
+     
+
+    }
+
+
+
+    .photo-box-logo {
+      margin-left:  14.9rem;                                        
+      margin-right: 2.4rem;                                        
+
+    }
+
+
+
+    .photo-inner-box-text {
+      margin-left:  2.4rem;                                          
+      margin-right:  12.694rem;                                          
+      margin-top:  4rem;                                                 
+    
+
+    }
+
+
+
+    .motion-box {
+      grid-column: 2 / 4;
+      grid-row: 4 / 5;
+      width:  33.3rem;                                        
+      height:  18.2rem;                                  
+      
+
+    }
+
+
+
+
+    .motion-box-logo {
+      margin-left:  18.1rem;                              
+    }
+
+
+
+    .motion-inner-box-text {
+      margin-top:  4rem;                                    
+      margin-right:  8.2rem;                                   
+
+    }
+
+
+
+
+
+    .about-me-box-main {
+      width:  77.2rem;                                     
+      height:  36.4rem;                                      
+      margin-left:  -4.4rem;                                       
+      margin-right:  4rem;                                     
+      margin-top:  12rem;                           
+      margin-bottom:  12rem;                                
+
+    }
+
+
+
+    .profile-photo {
+      width:  36.4rem;                            
+      height:  36.4rem;                                    
+    }
+
+
+
+    .about-text-box-contain {
+      height:  36.4rem;                     
+      width:  33.9rem;                          
+    }
+
+
+
+    .about-header {
+      font-size:  3.2rem;                           
+      line-height:  4.032rem;                               
+      margin-bottom:  2.4rem;                    
+    }
+
+
+
+    .smaller-about-text {
+      margin-top: 0;
+      margin-bottom:  2.2rem;                           
+      font-size:  1.8rem;                                    
+    }
+
+
+
+    .my-work-words {
+      font-size:   3.2rem;                                      
+
+    }
+
+
+
+    .book-call-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top:  12rem;                                  
+      width:   69rem;                                
+      height:  35.2rem;                                       
+
+    }
+
+
+    .book-call-text-box  {
+      margin-top:  2.6rem;                                                
+      margin-left:  7.5rem;                                
+      margin-right: 7.5rem;
+      
+     
+   
+    }
+
+
+    .book-text-header {
+      font-size:  3.2rem;                                             
+      line-height:  4.032rem;                                  
+      font-weight: 700;
+      margin: 0;
+    }
+
+
+
+    .book-copy-text {
+      font-size:  1.8rem;                                      
+      line-height:  2.8rem;                                   
+      text-align: center;
+      font-weight: 500;
+      margin-bottom:  2.6rem;                             
+    }
+
+
+    .second-free-consult-box {
+      margin-right: 0;
+      
+    }
+
+
+
+    .footer-content {
+      width:  68.9rem;                                  
+      height:  6.4rem;                                     
+    }
+
+
+  }      
+
+
+
+
+
+
+  @media screen and (max-width: 42.8rem)  {                /*  iPhone 14 Plus  428px  */
+     
+
+    .nav-content {
+      width:  34.3rem;                            
+      height:  4.8rem;                          
+    }
+
+
+    .social-logo {
+      width: 4.8rem;
+      height: 4.8rem;
+    }
+
+
+    .free-consult-button {
+      width:  17.6rem;                           
+      height:  4.4rem;                               
+    }
+
+
+    .free-consult-words {
+      font-size:  1.4rem;                                      
+      line-height:  2.8rem;                              
+    }
+
+
+    .title-box {
+      width:   34.3rem;                        
+      height:  21rem;                                            
+      margin-top:  3.2rem;                                             
+    }
+
+
+
+
+    p.main-title {
+      font-size:  3.6rem;                                       
+      line-height:  4.536rem;  
+      margin-bottom: 1.6rem;                                
+    }
+
+    
+    p.smaller-title-text {
+      font-size:  1.6rem;                                          
+      line-height:  2.6rem;                                
+    }
+
+
+    .hero-image-box {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: minmax(5rem, auto); /*50px*/
+      width:  34.3rem;                                   
+      height:  116.4rem;                                    
+      margin-top: 0;
+      
+
+     }
+
+
+     .graphic-design-box {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+      width:   34.3rem;                              
+      height:  36.4rem;                                        
+      margin: 0;
+
+     }
+
+
+     .graph-design-box-logo {
+      margin-left:   19.1rem;                                             
+
+    }
+
+
+    .graphic-design-inner-box-text {
+      margin-right:   10.9rem;                        
+     
+     
+    }
+
+
+
+    .ux-ui-box {
+     grid-column: 1 / 2;
+     grid-row: 4 / 5;
+     width:  15.9rem;                                                  
+     height:  18.2rem;                                        
+     margin-right: 2.5rem;                                 
+     margin-top:  -8.7rem;                                           
+     margin-bottom: 0;
+    
+     
+
+    }
+
+
+    .ux-ui-box-logo {
+      margin-right:  7.091rem;                            
+
+     }
+
+
+     .ux-inner-box-text {
+       margin-right:   5.335rem;                                           
+      
+
+
+     }
+
+
+     .apps-box {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+      width:   15.9rem;                                               
+      height:   18.2rem;                                      
+      margin: 0;
+      margin-top:  -8.7rem;                              
+     }
+
+
+     .apps-box-logo {
+       margin-left:  7.087rem;                                  
+
+     }
+     
+
+
+     .apps-inner-box-text {
+       margin-right:   6.245rem;                                               
+      
+     }
+
+
+
+
+     .illu-box {
+      grid-column: 1 / 3;
+      grid-row: 5 / 6;
+      width:  34.3rem;                                       
+      height:  15.8rem;                                                 
+      margin: 0;
+      margin-top:  0.2rem;                                              
+    
+
+     }
+
+
+
+     .illu-box-logo {
+       margin-right:  2.309rem;                                                 
+       margin-left:  19.191rem;                                          
+
+
+     }
+
+
+
+
+    .illu-inner-box-text {
+      margin-right:   15.69rem;                                           
+     
+
+    }
+
+
+
+    .photo-box {
+      grid-column: 1 / 3;
+      grid-row: 6 / 7 ;
+      width:    34.3rem;                                    
+      height:   18.2rem;                                           
+      margin: 0;
+      margin-top:  0.2rem;                                            
+     
+
+    }
+
+
+
+    .photo-box-logo {
+      margin-left:  15.9rem;                                       
+
+    }
+
+
+
+    .photo-inner-box-text {
+       margin-left:  2.4rem;                                                
+       margin-right:  13.694rem;                                                   
+    
+
+    }
+
+
+
+    .motion-box {
+      grid-column: 1 / 3;
+      grid-row: 7 / 8;
+      width:   34.3rem;                                                       
+      height:   18.2rem;                                              
+      margin: 0;
+      margin-top:  0.2rem;                                             
+      
+
+    }
+
+
+
+
+    .motion-box-logo {
+      margin-left:  19.1rem;                                         
+    }
+
+
+
+    .motion-inner-box-text {
+      margin-right:  10.8rem;                                                  
+    }
+
+
+
+    .about-me-box-main {
+      width:  34.3rem;                                                     
+      height:   60.2rem;                                               
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      margin-top:  10rem;                                     
+      margin-bottom:  12rem;                                      
+
+    }
+
+
+    .profile-photo {
+      width:  30rem;                                                         
+      height: 30rem;
+      margin-bottom:  4rem;                                               
+      
+    }
+
+
+
+    .about-text-box-contain {
+      width:  34.3rem;                                            
+      height:  26.2rem;                                                
+      margin-bottom:  10rem;                                                
+    }
+
+
+    .about-header {
+      font-size:  2.6rem;                                                   
+      line-height:  3.276rem;                                                      
+      text-align: center;
+    }
+
+
+    .smaller-about-text {
+      margin-bottom:  3.2rem;                                          
+      text-align: center;
+      font-size:  1.6rem;                                    
+      line-height:  2.6rem;                                  
+      margin-bottom:  2.4rem;                                      
+    }
+
+
+
+    .about-text-box-contain button {
+      margin: auto;
+      width:   17.6rem;                                           
+      height:   4.4rem;                                         
+      font-size:   1.4rem;                                        
+      
+     }
+
+
+
+     .my-work-words {
+      font-size:  2.4rem;                                                  
+     }
+
+
+     .main-centered-carousel {
+      height:  34rem;                                                          
+   }
+
+
+
+
+    
+     .slide-picture {
+      width:  27rem;                                               
+      height:  18rem;                                                
+      border-radius:  1rem;                                           
+    }
+
+
+
+    .work-slides:first-child {
+      margin-left:  1.5rem;                                         
+    }
+    
+    
+    .work-slides:last-child {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+
+
+    
+    
+
+    .arrow-buttons-contain button {
+      margin-top:  3.2rem;                                       
+   
+    
+    }
+
+
+
+
+    .book-call-box {
+      display: flex;
+      flex-direction: column;
+      margin-top:  10rem;                                               
+      width:   34.3rem;                                                       
+      height:   35.2rem;                                
+      
+    }
+
+
+
+    .book-call-text-box {
+      height:   18.7rem;                             
+      width:   29.6rem;                                      
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:  2.6rem;                                   
+      
+    
+      
+     
+     
+    }
+
+
+    
+    .book-text-header {
+     font-size:   2.6rem;                                                         
+     line-height:   3.276rem;                                              
+     margin-right:  2.7rem;                                    
+     margin-left:  2.7rem;                                                 
+     margin-bottom:  2.4rem;                                    
+     height:  3.3rem;                               
+
+     
+    }
+
+
+
+    .book-copy-text {
+      font-size:  1.6rem;                                     
+      line-height:  2.6rem;                                           
+      margin-bottom:  2.4rem;                                
+      height:   13rem;                                   
+      text-align: center;
+   
+     
+      
+    }
+    
+
+    .second-free-consult-box {
+      margin: 0;
+      margin-top:   2.4rem;                                 
+      height:  6rem;                                   
+
+    }
+
+
+
+    .second-consult-btn {
+      width:  17.6rem;                                   
+      height:   4.4rem;                                              
+      font-size:  1.4rem;                                          
+      line-height: 2.8rem;                                            
+    }
+
+
+
+    .footer-content {
+      width:  34.3rem;                                         
+      height:  4.8rem;                                        
+      margin-top:  4rem;                                          
+      margin-bottom:  3.2rem;                                       
+    
+      
+    
+     }
+    
+    
+     .social-logo-footer {
+      width:  4.8rem;                                                 
+      height: 4.8rem;
+    
+     }
+    
+    
+    
+     .footer-free-consult-button {
+       width:   17.6rem;                                          
+       height:  4.4rem;                                       
+    
+  
+    }
+    
+    
+    
+     .footer-free-consult-words {
+      font-size:   1.4rem;                                    
+    
+    
+     }
+
+
+
+    
+
+
+
+
+
+  }
+
+
+
+
