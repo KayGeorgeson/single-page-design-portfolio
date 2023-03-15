@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/single-page-design-portfolio/static/css/main.8aafb56e.css",
+    "main.js": "/single-page-design-portfolio/static/js/main.eacf7baa.js",
+    "index.html": "/single-page-design-portfolio/index.html",
+    "main.8aafb56e.css.map": "/single-page-design-portfolio/static/css/main.8aafb56e.css.map",
+    "main.eacf7baa.js.map": "/single-page-design-portfolio/static/js/main.eacf7baa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aafb56e.css",
+    "static/js/main.eacf7baa.js"
+  ]
+}
