@@ -2,7 +2,7 @@
   
   "name": "single-page-design-portfolio",
   "version": "0.1.0",
-  "homepage": "https://kaygeorgeson.github.io/",
+  "homepage": "https://kaygeorgeson.github.io/single-page-design-portfolio",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
